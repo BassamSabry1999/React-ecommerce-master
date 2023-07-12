@@ -1,0 +1,82 @@
+:root
+{
+    --shadow: rgba(145,158,171,.2) 0px 2px 4px -1px,rgba(145,158,171,.14) 0px 4px 5px 0px,rgba(145,158,171,.12) 0px 1px 10px 0px;
+}
+
+.mainColor{
+  color: #0aad0a;
+}
+.bgmainColor{
+  background-color: #0aad0a;
+}
+
+.ratingColor{
+  color: #ffc908;
+}
+
+.lightColor{
+  color: #f0f3f2;
+}
+
+.curserPointer{
+  cursor: pointer;
+}
+
+.fitWidth{
+  width: fit-content;
+}
+
+.slick-dots li button:before {
+  font-size:15px;
+}
+
+.slick-prev:before, .slick-next:before {
+  color: rgba(0, 0, 0, 0); 
+   /* font-size: 30px; */
+}
+
+.loadingMarginY{
+  margin-top: 50px;
+  margin-bottom: 230px;
+}
+
+.priceFont{
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.line{
+  background-color: #0aad0a;
+  height: 4px;
+  width: 0%;
+  transition: all 0.5s;
+}
+
+#home:hover + #line{
+  width: 100%;
+}
+
+#cart:hover + #line{
+  width: 100%;
+}
+
+#products:hover + #line{
+  width: 100%;
+}
+
+#categories:hover + #line{
+  width: 100%;
+}
+
+#brands:hover + #line{
+  width: 100%;
+}
+
+#brands:target  + #line{
+  width: 100%;
+  
+}
+
+.fitWidth{
+  width: fit-content;
+}

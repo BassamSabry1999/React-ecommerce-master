@@ -1,0 +1,8 @@
+.productItem{
+    transition: transform 0.3s;
+}
+.productItem:hover{
+    border: 3px solid #0aad0a  ;
+
+    transform: scale(1.060);
+}
